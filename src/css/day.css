@@ -1,0 +1,33 @@
+.dayContainer{
+    width: 13%;
+    height: 27.5vh;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    border-radius: 25px;
+    background-color: #191919;
+}
+
+.dayIcon{
+    background-image: url(../img/sunny.svg);
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+
+.dayContainer p {
+    font-family: Poppins;
+    color: #fff;    
+    margin-left: 10%;
+}
+
+.dayTemprature{
+    font-size: 64px;
+    font-weight: 500;
+    margin-top: 5%;
+}
+
+.dayDate{
+    margin-top: -8%;
+    font-weight: 300;
+}
