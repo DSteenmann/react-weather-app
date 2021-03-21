@@ -1,25 +1,21 @@
-import Day from './Day';
+import Day from "./Day";
+import { useState } from "react";
 import "../css/days.css";
 
-const Days = () => {
-    const names = ['James', 'Paul', 'John', 'George', 'Ringo', "a", "c"];
+const Days = ({ days }) => {
+  const [index] = useState([1, 2, 3, 4, 5, 6]);
+  let newDate = new Date();
+            let date = newDate.getDate();
+            let month = newDate.getMonth() + 1;
+            let year = newDate.getFullYear();
 
-    return (
-        <div className="daysContainer">
-            <div className="cityContainer">
-                <p>Nettetal, Germany</p>
-            </div>
-            <div className="btnContainer">
-                <button className="btnWeek">This Week</button>
-                <button className="btnDay">This Day</button>
-            </div>
-            <div className="weekContainer">
-                {names.map(name => (
-                    <Day />
-                ))}
-            </div>
-        </div>
-    )
-}
+  return (
+    <div className="weekContainer">
+      {index.map((res) =>(
+          <Day day={days} index={res} date={date} month={month} year={year}/>
+      ))}
+    </div>
+  );
+};
 
-export default Days
+export default Days;

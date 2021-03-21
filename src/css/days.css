@@ -1,55 +1,12 @@
-.daysContainer{
-    width: 100%;
-    height: 50vh;
-    position: absolute;
-    bottom: 0;
-    background-color: #00000030;
-    backdrop-filter: blur( 20.0px);
-    -webkit-backdrop-filter: blur( 20.0px);
-}
 
-.cityContainer{
-    width: 95%;
-    height: 5vh;
-    font-family: Poppins;
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 5vh;
-    color: #fff;
-    background-color: #151515;
-    padding-left: 5%;
-  }
-
-.btnContainer{
-    display: flex;
-    flex-direction: row;
-    margin-left: 5%;
-    margin-top: 1%;
-}
-
-.btnContainer button{    
-    font-family: Poppins;
-    font-size: 24px;
-    font-weight: 300;
-    color: #fff;
-    background: none;
-    outline: none;
-    border: none;
-}
-
-.btnWeek{
-    font-size: 48px !important;
-    margin-right: 2%;
-}
-
-.btnDay{
-    padding-top: 12px;
-}
 
 .weekContainer{
-    margin-left: 5%;
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    height: 580px;
+    margin-top: 2%;
+    margin-left: 6%;
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px 40px;
 }

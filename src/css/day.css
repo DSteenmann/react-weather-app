@@ -1,33 +1,33 @@
 .dayContainer{
-    width: 13%;
-    height: 27.5vh;
-    padding-top: 2.5vh;
-    padding-bottom: 2.5vh;
+    width: 200px;
+    height: 250px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     border-radius: 25px;
-    background-color: #191919;
+    background-color: #fff;
+    box-shadow: 0px 8px 24px 0px #00000015;
 }
 
 .dayIcon{
-    background-image: url(../img/sunny.svg);
-    background-repeat: no-repeat;
-    height: 150px;
-    width: 150px;
-    margin: auto;
+    height: 125px;
+    width: 125px;
+    margin-left: 37.5px;
 }
 
 .dayContainer p {
     font-family: Poppins;
-    color: #fff;    
-    margin-left: 10%;
+    color: #000;    
+    margin-left: 15%;
 }
 
 .dayTemprature{
-    font-size: 64px;
-    font-weight: 500;
+    font-size: 48px;
+    font-weight: 600;
     margin-top: 5%;
 }
 
 .dayDate{
     margin-top: -8%;
-    font-weight: 300;
+    font-size: 14px;
+    font-weight: 400;
 }
